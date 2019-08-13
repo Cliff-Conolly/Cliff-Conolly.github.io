@@ -1,0 +1,47 @@
+.name {
+  text-align: center;
+  display: block;
+  /* padding: 10px; */
+  font-weight: 75px;
+  font-size: 30px;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+.background{
+  position: relative;
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  height: 1500px;
+
+}
+
+.space_station {
+  width: 30px;
+  position: absolute;
+  top: 550px;
+  right: 55%;
+}
+
+.death_star {
+  width: 97px;
+  position: absolute;
+  top: 314px;
+  right: 4%;
+}
+
+.dish {
+  width: 51px;
+  position: absolute;
+  top: 730px;
+  right: 71%;
+}
+
+.rover {
+  width: 61px;
+  position: absolute;
+  top: 1132px;
+  right: 62%;
+
+}
