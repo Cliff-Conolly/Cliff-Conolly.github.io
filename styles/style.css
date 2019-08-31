@@ -1,8 +1,9 @@
-body
+.parallax
 {
   position: relative;
-  background-image: url("../assets/background.jpg");
+  background-image: url("../assets/1.original_background.jpg");
   background-size: cover;
+  /* background-attachment: fixed; */
   height: 1500px;
   margin: 0;
   padding: 0;
@@ -172,6 +173,21 @@ ul li:hover:nth-child(3) a:before
 }
 
 ul li:hover:nth-child(3) a:after
+{
+  background: #75b5e6;
+}
+
+ul li:hover:nth-child(4) a
+{
+  background: #55acee;
+}
+
+ul li:hover:nth-child(4) a:before
+{
+  background: #435f7d;
+}
+
+ul li:hover:nth-child(4) a:after
 {
   background: #75b5e6;
 }
