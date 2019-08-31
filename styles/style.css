@@ -179,15 +179,15 @@ ul li:hover:nth-child(3) a:after
 
 ul li:hover:nth-child(4) a
 {
-  background: #55acee;
+  background: #e41a23;
 }
 
 ul li:hover:nth-child(4) a:before
 {
-  background: #435f7d;
+  background: #a9161c;
 }
 
 ul li:hover:nth-child(4) a:after
 {
-  background: #75b5e6;
+  background: #b73d42;
 }
