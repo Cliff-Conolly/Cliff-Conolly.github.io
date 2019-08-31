@@ -83,7 +83,7 @@ ul li a
   display: block;
   width: 80px;
   height: 80px;
-  background: #fff;
+  background: #545153;
   text-align: center;
   transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
   transition: .5s;
@@ -98,7 +98,7 @@ ul li a:before
   left: -20px;
   height: 100%;
   width: 20px;
-  background: #b1b1b1;
+  background: #454242;
   transition: .5s;
   transform: rotate(0deg) skewY(-45deg);
 }
@@ -111,7 +111,7 @@ ul li a:after
   left: -10px;
   height: 20px;
   width: 100%;
-  background: #b1b1b1;
+  background: #636162;
   transition: .5s;
   transform: rotate(0deg) skewX(-45deg);
 }
