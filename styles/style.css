@@ -20,6 +20,12 @@
   font-family: 'Orbitron', sans-serif;
 }
 
+.ga{
+  width: 45px;
+  padding: 17px;
+  color: black;
+}
+
 
 .space_station
 {
@@ -127,6 +133,11 @@ ul li:hover .fa
 {
   color: #fff;
 
+}
+
+ul li:hover .ga
+{
+color: #fff;
 }
 
 ul li:hover:nth-child(1) a
