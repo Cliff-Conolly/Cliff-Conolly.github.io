@@ -11,12 +11,12 @@
     </style>
     <title>Portfolio</title>
     <script type="text/javascript" src="scripts/app.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-</head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
 
 
 <body>
-
 
 
   <div class="name">
@@ -29,13 +29,28 @@
   </div>
 
   <div class="box">
-    <span><p>-------</p></span>
-    <span><p>-------</p></span>
-    <span><p>-------</p></span>
+    <span></span>
+    <span></span>
+    <span></span>
   </div>
 
-<!--
-  <div>
+<script>
+ var arrowbox = document.querySelector(".box")
+ arrowbox.addEventListener("click", function() {
+ // var revealBox = document.querySelector(".box2")
+ //  revealBox.scrollIntoView(false)
+ window.scrollTo({
+  top: 400,
+  left: 0,
+  behavior: 'smooth'
+});
+ })
+
+
+</script>
+
+
+  <!-- <div>
     <img class="death_star" src="assets/Death_Star.png"/>
     <img class="space_station" src="assets/Station.png"/>
     <img class="dish" src="assets/Dish.png"/>
@@ -43,9 +58,65 @@
 
   </div -->
 
-  <div style="height: 350px;":></div>
+  <!-- <div style="height: 350px;":></div>
   <div class="red-cube">Scroll Magic</div>
-  <div style="height: 350px;":></div>
+  <div style="height: 350px;":></div> -->
+
+<div>
+  <script>
+  	// init controller
+  	var controller = new ScrollMagic.Controller();
+  </script>
+  <style type="text/css">
+  	#reveal1 {
+  		opacity: 0;
+  		-webkit-transform: scale(0.8);
+  			 -moz-transform: scale(0.9);
+  				-ms-transform: scale(0.9);
+  				 -o-transform: scale(0.9);
+  						transform: scale(0.9);
+  		-webkit-transition: all 1s ease-in-out;
+  			 -moz-transition: all 1s ease-in-out;
+  				-ms-transition: all 1s ease-in-out;
+  				 -o-transition: all 1s ease-in-out;
+  						transition: all 1s ease-in-out;
+  	}
+  	#reveal1.visible {
+  		opacity: 1;
+  		-webkit-transform: none;
+  			 -moz-transform: none;
+  				-ms-transform: none;
+  				 -o-transform: none;
+  						transform: none;
+  	}
+  </style>
+
+
+  <div class="pad"></div>
+  <div id="trigger1" class="spacer s0"></div>
+  <div id="reveal1" class="box2 blue">
+  	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  	<!-- <a href="#" class="viewsource">view source</a> -->
+  </div>
+
+  <script>
+  		// build scene
+  		new ScrollMagic.Scene({
+  							triggerElement: "#trigger1",
+  							triggerHook: 0.9, // show, when scrolled 10% into view
+  							duration: "75%", // hide 10% before exiting view (80% + 10% from bottom)
+  							offset: 50 // move trigger to center of element
+  						})
+  						.setClassToggle("#reveal1", "visible") // add class to reveal
+  						.addIndicators() // add indicators (requires plugin)
+  						.addTo(controller);
+  </script>
+
+
+
+</div>
+
+
 
   <footer>
     <ul>
@@ -59,7 +130,7 @@
         <a href="https://twitter.com/@CliffConolly"><i class="fa fa-twitter" aria-hidden="true"></i></a>
       </li>
       <li>
-        <a><img class="ga" src="assets/black_ga.png"></a>
+        <a href="https://profiles.generalassemb.ly/cliff-conolly"><img class="ga" src="assets/black_ga.png"></a>
       </li>
     <ul>
   </footer>
