@@ -69,14 +69,14 @@ animation: animate 5s infinite;
 #reveal1 {
   color: #feda4a;
   font-family: 'Pathway Gothic One', sans-serif;
-  font-size: 129%;
+  font-size: 151%;
   font-weight: 800;
-  letter-spacing: 5.4px;
+  letter-spacing: 3.4px;
   text-align: justify;
   /* display: flex; */
   transform: rotateY(50deg);
 		opacity: -5;
-		-webkit-transform: scale(0.9);
+		-webkit-transform: scale(0.9);  
 			 -moz-transform: scale(0.9);
 				-ms-transform: scale(0.9);
 				 -o-transform: scale(0.9);
