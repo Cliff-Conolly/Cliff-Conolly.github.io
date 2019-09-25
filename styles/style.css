@@ -237,3 +237,56 @@ ul li:hover:nth-child(4) a:before {
 ul li:hover:nth-child(4) a:after {
   background: #b73d42;
 }
+
+/* responsive styles */
+
+@media screen and (min-width: 375px) {
+  body {
+    /* position: relative; */
+    /* background-image: url("../assets/1.original_background.jpg"); */
+    /* background-size: cover; */
+    height: 1100px;
+    /* width: 375px;
+    margin: 0;
+    padding: 0; */
+  }
+
+  .name {
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    
+  }
+
+  #reveal1 {
+    color: #feda4a;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 75%;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    text-align: justify;
+    /* display: flex; */
+    transform: rotateY(50deg);
+      opacity: -5;
+      -webkit-transform: scale(0.9);  
+         -moz-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+           -o-transform: scale(0.9);
+              transform: scale(0.9);
+      -webkit-transition: all 1s ease-in-out;
+         -moz-transition: all 1s ease-in-out;
+          -ms-transition: all 1s ease-in-out;
+           -o-transition: all 1s ease-in-out;
+              transition: all 1s ease-in-out;
+    }
+
+    #reveal1.visible {
+      opacity: 1;
+      -webkit-transform: none;
+         -moz-transform: none;
+          -ms-transform: none;
+           -o-transform: none;
+              transform: none;
+    }
+  
+}
