@@ -253,13 +253,8 @@ ul li:hover:nth-child(4) a:after {
 /* responsive styles */
 @media screen and (max-width: 600px) {
   body {
-    /* position: relative; */
-    /* background-image: url("../assets/1.original_background.jpg"); */
     background-size: cover;
     height: 1200px;
-    /* width: 375px;
-    margin: 0;
-    padding: 0; */
   }
 
   ul {
@@ -278,20 +273,19 @@ ul li:hover:nth-child(4) a:after {
   .ga {
     width: 35px;
     padding: 6px;
-}
-#reveal1 {
-  font-size: 100%;
-}
-.box2{
-  width: 250px;
-}
+  }
+  #reveal1 {
+    font-size: 100%;
+  }
+  .box2{
+    width: 250px;
+  }
   .name {
     text-align: center;
     font-size: 15px;
-    display: block;
-    
+    display: block;  
   }
 
-  
     
     }
+
