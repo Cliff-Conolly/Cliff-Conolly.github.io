@@ -109,16 +109,84 @@ animation: animate 5s infinite;
 
 
 .box2 {
-  width: 400px;
-  margin: 0 auto;
+  width: 850px;
+  margin: auto;
   perspective: 100px;
+  
 
 }
 
 .scrawl {
   transform-style: preserve-3d;
-  transform: rotateX(8deg);
+  transform: rotateX(4deg);
+  width: 800px;
+  border: 0.50px solid #ced8e7;
+  border-radius: 20px 20px 20px 20px;
+  background: #96959a;
+  opacity: 0.80;
+  align-content: center;
+  box-shadow: 0px 0px 10px 10px #CCCCCC;
 }
+
+/* .scrawl2{
+  transform-style: preserve-3d;
+  transform: rotateX(8deg);
+  width: 800px;
+  border: 1px solid white;
+  background: black;
+  opacity: 0.80;
+  align-content: center;
+  box-shadow: 0px 0px 5px 5px #ccc;
+  
+} */
+
+.container1 {
+  width: 798px;
+  height: 150px;
+  border: 0.25px solid red;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  
+
+ 
+}
+
+#profile {
+  border: 1px solid red;
+  width: 30pc;
+  margin: 10px;
+
+}
+
+#profile_blurb {
+  /* border: 1px solid red; */
+  width: 70pc;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* padding: 10px; */
+
+
+}
+
+
+.container2 {
+  width: 800px;
+  height: 150px;
+  border: 0.25px solid #ced8e7;
+}
+
+.container3 {
+  width: 798px;
+  height: 250px;
+  border: 0.25px solid;
+  border-radius: 0px 0px 20px 20px;
+}
+
+
+
 footer {
  position: absolute;
  bottom: 0;
@@ -278,7 +346,7 @@ ul li:hover:nth-child(4) a:after {
     font-size: 100%;
   }
   .box2{
-    width: 250px;
+    width: 500px;
   }
   .name {
     text-align: center;
@@ -288,4 +356,36 @@ ul li:hover:nth-child(4) a:after {
 
     
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
